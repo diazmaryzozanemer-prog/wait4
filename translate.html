@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CSS Transform/Transition</title>
+    
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+        .container {
+            width: 95%;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+        body {
+            background-color: #E3F2FD;
+        h1 {
+            background-color: #7692FF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            height: 80px;
+        }
+        
+        h3 {
+            background-color: #7aceff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+        }
+      
+        h4{
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+   
+        .card {
+            border: dashed 3px #1b2370;
+            margin: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            background-color: #E3F2FD;
+        }
+        
+        .translate-before {
+            padding: 10px;
+            margin: 20px;
+            background-color: #49A4BB;
+            color: #1b2370;
+            width: 200px;
+            height: 50px;
+            border-radius: 7px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .translate-after {
+            padding: 10px;
+            margin: 20px;
+            background-color: #49A4BB;
+            color: #1b2370;
+            width: 200px;
+            height: 50px;
+            border-radius: 7px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+            
+        }
+        .translate-after:hover{
+            transform: translate(50px, 20px);
+            transition: 0.5s;
+            background-color: #3B82C4;
+            color: #07043a;
+        }
+        .navbar{
+            display: flex;
+             align-items: center;
+            justify-content: center;
+        }
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.a{
+    padding: 10px;
+    margin: 10px;
+    background-color: #7aceff;
+    color: #1b2370;
+    width: 50px;
+    height: 10px;
+
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.b {
+    padding: 10px;
+    margin: 10px;
+    background-color: #7aceff;
+    color: #1b2370;
+    width: 50px;
+    height: 10px;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.c {
+    padding: 10px;
+    margin: 10px;
+    background-color: #7aceff;
+    color: #1b2370;
+    width: 50px;
+    height: 10px;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.d {
+    padding: 10px;
+    margin: 10px;
+    background-color: #7aceff;
+    color: #1b2370;
+    width: 50px;
+    height: 10px;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.a a,
+.b a, 
+.c a, 
+.d a {
+    text-decoration: none;
+}
+.a:hover{
+    background-color: #92EEFF;
+}
+.b:hover{
+    background-color: #92EEFF;
+}
+.c:hover {
+    background-color: #92EEFF;
+}
+.d:hover {
+    background-color: #92EEFF;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        
+    <h1>CSS Transform/Translate</h1>
+    
+    <h3>
+        Transform/Translate
+    </h3>
+  
+  <h4> CSS Transform: Translate</h4>
+    
+    <div class="card">
+        
+        <div class="translate-before">
+            Translate Before
+        </div>
+        
+        <div class="translate-after">
+            Translate After
+        </div>
+        
+    </div>
+    
+    
+    <nav class="navbar">
+        
+        <div class="nav-links">
+            
+            <div class="a">
+                <a href="translate.html">Translate</a>
+            </div>
+            
+            <div class="b">
+                <a href="index.html">Rotate</a>
+            </div>
+            
+             <div class="c">
+                <a href="skew.html">
+                  Skew
+               </a>
+             </div>
+ 
+             <div class="d">
+                 <a href="scale.html">
+                  Scale
+                </a>
+             </div>
+            
+        </div>
+        
+    </nav>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+      body{
+        background: linear-gradient(
+    135deg,
+    #8F3047,
+    #BE5267,
+    #D06A7D
+);
+
+        .container{
+        width: 85%;
+        max-width: 700px;
+        margin: 20px auto;
+        flex-direction: column;
+
+        height: 550px;
+        padding: 15px;
+
+        border-radius: 50px;
+
+        border: 4px solid #1f001f;
+
+  background: linear-gradient(
+    135deg,
+    #FBE8EC,
+    #F9DDE3,
+    #F3C4CF);
+        }
+
+        h3{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        font-family: Impact, fantasy;
+
+        color: #FFE0D0;
+ background: linear-gradient(135deg, #64152A, #913047, #A83B52);
+border-radius: 20px;
+        border-radius: 20px;
+
+        height: 50px;
+        }
+
+        p{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-weight: 150;
+
+    color:#70404A;
+     
+   
+    
+}
+        }
+        
+        h4{
+        color: #2b0c2b;
+        
+        font-family: cursive;
+        }
+        
+        .container2{
+        width: 85%;
+        max-width: 700px;
+        margin: 20px auto;
+        flex-direction: column;
+
+        height: 300px;
+        padding: 20px;
+
+        border-radius: 50px;
+
+        border: 4px solid #1f001f;
+
+    background: linear-gradient(
+    135deg,
+    #FBE8EC,
+    #F9DDE3,
+    #F3C4CF
+);
+        }
+        .ima img{
+        height: 200px;
+        width: 300px;
+        border-radius: 30px;
+
+        border: 3px solid #1f001f;
+        }
+        
+        .container2 img{
+           height: 200px;
+           width: 300px;
+           border-radius: 30px;
+           
+           border: 3px solid #1f001f;
+            
+        }
+        button {
+    background: linear-gradient(
+    135deg,
+    #681226,
+    #821832,
+    #9E2A3A,
+    #B83B4B
+);
+    color: #FFFFFF;
+    font-family: Impact, fantasy;
+    
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    
+    
+    
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+
+
+.but{
+    align-items: center;
+display: flex;
+justify-content: center;
+padding-top: 50px;
+}
+
+.button-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 60px; }
+.button { display: inline-flex; justify-content: center; align-items: center; border: 1px solid transparent; border-radius: 13px; padding: 12px 19px; font-weight: 700; cursor: pointer; transition: transform .2s, box-shadow .2s, background .2s; }
+.button-primary { background: linear-gradient(135deg, #536f84, #718b98); color: white; 
+  text-decoration: none;
+}        
+
+
+   </style>
+
+    <div class="container">
+
+        
+        <h3>
+            HAPPY TEACHERS MONTH! 
+        </h3>
+       
+
+        
+        <h4>
+            To my dear former prof:
+        </h4> 
+        <p>
+            I am really grateful that you were the one chosen to be our adviser for the second semester when I was a first year.
+            <br>   </br>
+            Please continue teaching in such a manner where students can take their own pace, just like how I did.
+            <br>   </br>
+            Always stay healthy and lively. Thank you for the memories. 
+           
+            <br> </br>
+            
+        </p>
+         <div class="ima">
+     <img src="mam.jpeg" alt="mam">
+        </div>
+
+    </div>
+
+    <div class="container2">
+        <img src="haha.png" alt="haha" />
+       <audio id="bgMusic" src="for.mp3" autoplay loop></audio>
+<div class="but">
+<button onclick="stopMusic()">Stop Music</button>
+</div>
+
+<script>
+    function stopMusic() {
+        const music = document.getElementById("bgMusic");
+        music.pause();
+        music.currentTime = 0;
+    }
+</script>
+    </div>
+
+ <div class="button-row">
+     <a class="button button-primary" href="projects.html">Back To Projects</a>    
+
+</body>
+</html>

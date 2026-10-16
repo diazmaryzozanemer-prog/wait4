@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+    
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+    background-color: rgb(102, 89, 163);
+}
+
+.logo {
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: rgb(149, 220, 253);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background-color: #534c8a;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    margin-top: 500px;
+    top: 20px;
+    right: 30px;
+
+    display: flex;
+    padding: 5px 10px;
+
+    background-color: rgb(194, 152, 236);
+    color: white;
+    border-radius: 5px;
+}
+.button-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 450px; }
+.button { display: inline-flex; justify-content: center; align-items: center; border: 1px solid transparent; border-radius: 13px; padding: 12px 19px; font-weight: 700; cursor: pointer; transition: transform .2s, box-shadow .2s, background .2s; }
+.button-primary { background: linear-gradient(135deg, #536f84, #718b98); color: white; 
+  text-decoration: none;
+}
+  </style>
+    <nav class="navbar">
+        <div class="logo">
+            Diaz Portfolio
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">Additional Information</a>
+        </div>
+    </nav>
+
+    <section class="content">
+        <span class="badge">NEW</span>
+        <h1>Welcome to My Website</h1>
+        <p>
+            This webpage demonstrates CSS Display and Position.
+        </p>
+    </section>
+<div class="button-row">
+  <a class="button button-primary" href="projects.html">Back To Projects</a>
+</body>
+</html>
